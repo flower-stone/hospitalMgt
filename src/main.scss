@@ -1,0 +1,45 @@
+/* override mdl */
+#header {
+  background: linear-gradient(to top,white,#BBDEFB);;
+  border-bottom: 1px solid $headerBorderColor;
+  display: block;
+  color: rgba(0,0,0,.88);
+  min-height: 48px;
+  padding: 0 5px;
+  position: relative;
+
+  a {
+    display: block;
+  }
+
+  .back {
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    padding-top: 16px;
+    >span {
+      position: absolute;
+      left: 20px;
+      top: 14px;
+    }
+  }
+
+  .action {
+    float: right;
+    margin-right: 0;
+  }
+
+  .main {
+    padding: 0;
+    background: transparent;
+  }
+
+  .text {
+    margin-top: 18px;
+  }
+
+  h2 {
+    font-size: 25px;
+    padding: 25px;
+  }
+}

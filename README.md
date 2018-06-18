@@ -1,4 +1,4 @@
-# hospital-mgt
+# hospital-vue
 
 > A Vue.js project
 

@@ -1,0 +1,226 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"HelloWorld"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/workspace/hospital-vue/src/main.scss",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/workspace/hospital-vue/build/webpack.base.conf.js",
+		"/D/workspace/hospital-vue/src/HelloWorld/HelloWorld.js",
+		"/D/workspace/hospital-vue/src/index.scss",
+		"/D/workspace/hospital-vue/src/components/header/header.html",
+		"/D/workspace/hospital-vue/src/home/home.vue",
+		"/D/workspace/hospital-vue/src/home/home.scss",
+		"/D/workspace/hospital-vue/src/App.vue",
+		"/D/workspace/hospital-vue/src/HelloWorld/HelloWorld.vue",
+		"/D/workspace/hospital-vue/src/main.js",
+		"/D/workspace/hospital-vue/src/router/index.js",
+		"/D/workspace/hospital-vue/src/TestHello/TestHello.vue",
+		"/D/workspace/hospital-vue/package.json",
+		"/D/workspace/hospital-vue/.postcssrc.js",
+		"/D/workspace/hospital-vue/src/TestHello/TestHello.js",
+		"/D/workspace/hospital-vue/build/dev-client.js",
+		"/D/workspace/hospital-vue/build/dev-server.js",
+		"/D/workspace/hospital-vue/build/utils.js",
+		"/D/workspace/hospital-vue/src/HelloWorld/HelloWorld.scss",
+		"/D/workspace/hospital-vue/build/webpack.dev.conf.js",
+		"/D/workspace/hospital-vue/build/webpack.prod.conf.js",
+		"/D/workspace/hospital-vue/.eslintignore",
+		"/D/workspace/hospital-vue/build/vue-loader.conf.js",
+		"/D/workspace/hospital-vue/src/components/HelloWorld.scss",
+		"/D/workspace/hospital-vue/src/components/HelloWorld.js",
+		"/D/workspace/hospital-vue/src/components/HelloWorld.vue",
+		"/D/workspace/hospital-vue/.editorconfig",
+		"/D/workspace/HospitalMgmt/gulp/unit-tests.js",
+		"/D/workspace/HospitalMgmt/src/app/basicSetup/basicSetup.controller.js",
+		"/D/workspace/HospitalMgmt/src/app/home/home.module.js",
+		"/D/workspace/HospitalMgmt/package.json",
+		"/D/workspace/HospitalMgmt/bower.json",
+		"/D/workspace/HospitalMgmt/src/app/blackListMgmt/blackListMgmt.controller.js",
+		"/D/workspace/HospitalMgmt/src/app/blackListMgmt/blackListMgmt.module.js",
+		"/D/workspace/HospitalMgmt/src/app/index.run.js",
+		"/D/workspace/HospitalMgmt/src/app/components/leftNav/leftNav.directive.js",
+		"/D/workspace/HospitalMgmt/src/app/home/home.html",
+		"/D/workspace/HospitalMgmt/src/app/home/home.controller.js",
+		"/D/workspace/HospitalMgmt/src/app/authMgmt/authMgmt.controller.js",
+		"/D/workspace/HospitalMgmt/src/app/index.route.js",
+		"/D/workspace/HospitalMgmt/package-lock.json",
+		"/D/workspace/HospitalMgmt/karma.conf.js",
+		"/D/workspace/HospitalMgmt/gulpfile.js",
+		"/D/workspace/HospitalMgmt/src/app/index.config.js",
+		"/D/workspace/HospitalMgmt/src/app/blackListMgmt/blackListMgmt.html",
+		"/D/workspace/HospitalMgmt/src/app/authMgmt/authMgmt.html",
+		"/D/workspace/HospitalMgmt/src/app/components/header/header.directive.js",
+		"/D/workspace/HospitalMgmt/src/app/components/leftNav/leftNav.html",
+		"/D/workspace/HospitalMgmt/src/app/comments/comments.html",
+		"/D/workspace/HospitalMgmt/src/app/cardMgmt/cardMgmt.module.js",
+		"/D/workspace/HospitalMgmt/src/app/cardMgmt/cardMgmt.html",
+		"/D/workspace/HospitalMgmt/src/app/reports/reports.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,110 @@
+/* color values */
+$primary: rgb(63,81,181);
+$primary-hue-1: rgb(121,134,203);
+$accent: #ff4081;
+$selectedBoxBg: #51c200;
+$bgColor: #f6f6f6;
+$bodyBgColor: #fff;
+$borderColor: #ddd;
+$headerBorderColor: rgba(0,0,0,0.17);
+$headerShadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+$black: #111;
+$white: #fafafa;
+$grey: #8d8a8a;
+$priceColor: #fb3d3d;
+$highlightBgColor: #E3E9FA;
+$errorColor: rgb(221,44,0);
+
+/* size values */
+$smaller: 14px;
+$small: 15px;
+$normal: 16px;
+$medium: 18px;
+$large: 20px;
+$larger: 22px;
+$iconSize: 30px;
+
+$footerHeight: 55px;
+/* mixins */
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+md-input-container {
+  &.md-input-has-value, &.md-input-focused {
+    label:not(.md-no-float) {
+      margin-bottom: 5px;
+      transform: translate3d(0, 6px, 0) scale(1);
+    }
+  } 
+}
+/******************************/
+
+.search {
+  float: left;
+  width: 40%;
+  border-right: 1px solid #ddd;
+
+  .btn {
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+}
+
+.add-blacklist {
+  @extend %clearfix;
+
+  .detail {
+    margin-left: 50px;
+    float: left;
+
+    > div {
+      padding-top: 5px;
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+  .add {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .label {
+    margin-right: 10px;
+    display: inline-block;
+  }
+}
+
+.reason {
+  padding: 30px 20px;
+  width: 400px;
+
+  .title {
+
+  }
+
+  textarea {
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+  }
+}
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.warning {
+  padding: 30px 20px;
+}
+
+.empty {
+  min-height: 500px;
+}

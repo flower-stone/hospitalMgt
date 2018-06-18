@@ -1,0 +1,366 @@
+@import "./variable";
+
+*:focus {
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body, .viewport {
+  font-size: $normal;
+  background: $bgColor;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 15px 0 10px 10px;
+  margin: 0;
+}
+
+h3 {
+  font-size: $normal;
+  line-height: $normal;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: $large;
+  line-height: $large;
+  font-weight: bold;
+}
+
+header {
+  background: linear-gradient(to bottom, white, #eee);
+  border-bottom: 1px solid $headerBorderColor;
+  display: block;
+  color: rgba(0, 0, 0, .88);
+  min-height: 48px;
+}
+
+.main {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  @extend %clearfix;
+}
+
+.md-button {
+  font-size: $normal;
+}
+
+.session {
+  padding: 10px 15px;
+  background: white;
+  margin: 10px 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+
+  .header {
+    color: $primary;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+}
+
+.btn-row {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.label {
+  color: #666;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #dddddd;
+  position: absolute;
+
+  &:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ffffff;
+    position: absolute;
+    top: 1px;
+    left: -7px;
+
+  }
+}
+
+.hide {
+  display: none;
+}
+
+/* mixins */
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+md-input-container {
+  &.md-input-has-value, &.md-input-focused {
+    label:not(.md-no-float) {
+      margin-bottom: 5px;
+      transform: translate3d(0, 6px, 0) scale(1);
+    }
+  }
+}
+/* 按钮 部分 */
+.md-button{
+    letter-spacing: 0.010em;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: currentColor;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    outline: none;
+    border: 0;
+    display: inline-block;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 6px;
+    margin: 6px 8px;
+    line-height: 36px;
+    min-height: 36px;
+    background: transparent;
+    white-space: nowrap;
+    min-width: 88px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: inherit;
+    font-variant: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.md-blue-button {
+  color: rgba(255,255,255,0.87);
+  background-color: rgb(63,81,181);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.md-green-button {
+  color: rgba(255,255,255,0.87);
+  background-color: #169425;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+/* 默认部分 */
+button,
+select,
+html,
+textarea,
+input {
+  font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+select,
+button,
+textarea,
+input {
+  font-size: 100%; }
+
+/* header 部分 */
+#header {
+  background: linear-gradient(to top, white, #BBDEFB);;
+  border-bottom: 1px solid $headerBorderColor;
+  display: block;
+  color: rgba(0, 0, 0, .88);
+  min-height: 48px;
+  padding: 0 5px;
+  position: relative;
+
+  a {
+    display: block;
+  }
+
+  .back {
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    padding-top: 16px;
+    > span {
+      position: absolute;
+      left: 20px;
+      top: 14px;
+    }
+  }
+
+  .action {
+    float: right;
+    margin-right: 0;
+  }
+
+  .main {
+    padding: 0;
+    background: transparent;
+  }
+
+  .text {
+    margin-top: 18px;
+  }
+
+  h2 {
+    font-size: 25px;
+    padding: 25px;
+  }
+}
+
+// 菜单栏部分
+.appMenu{
+  height: 700px;
+  float: left;
+}
+.el-menu{
+    border: 1px solid #ddd;
+    width: 180px;
+    border-top: 0;
+    background-color:#f6f6f6;
+
+    :hover{
+      background-color:#fff;
+    }
+
+    .is-active{
+      background-color:#fff;
+      color:black;
+    }
+
+  >li{
+    border-bottom: 1px solid #ddd;
+
+    .is-active{
+      background-color:#d1dbe5;
+      color:black;
+    }
+  }
+}
+.el-submenu {
+  .el-menu{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-bottom:0;
+    width: 179px;
+
+    li{
+      border:0;
+    }
+  }
+
+  .el-menu-item{
+  min-width: 180px;
+  }
+}
+
+.el-menu-item, .el-submenu__title{
+    font-size: 16px;
+  }
+
+/* 内容部分 */
+.content {
+  margin-left: 20px;
+  float: left;
+  width: 900px;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+
+  >h2 {
+    padding-left: 0;
+  }
+}
+// table
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+  margin-top: 10px;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  thead tr {
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+    &:nth-child(odd)>td {
+      background: #f9f9f9;
+    }
+  }
+
+  th, td {
+    padding: 6px 30px;
+
+    md-checkbox {
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+  }
+
+  th {
+    padding: 15px 30px;
+  }
+  tfoot {
+    min-height: 95px;
+  }
+
+  select {
+    line-height: $normal;
+  }
+}
+
+.auth-mgmt {
+  .account {
+    width: 23%;
+  }
+  .name {
+    width: 23%;
+  }
+  .role {
+    width: 23%;
+  }
+}
+/**
+ *  Do not remove the comment below. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector
